@@ -1,0 +1,85 @@
+.linkedList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5px,1fr));
+    border:2px solid red;
+    gap: 1px;
+    padding: 10px;
+
+}
+body{
+    background-color: black;
+}
+h1{
+    color: burlywood;
+}
+input{
+  background-color: darkseagreen;
+}
+
+.node{
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+    color: cadetblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+}
+.arrow{
+    text-align: center;
+    padding: 10px;
+    color: darkred;
+
+}
+
+.container{
+    display: flex;
+    border: 2px dashed darkturquoise;
+    border-radius: 40px;
+}
+.stack , .count{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.count{
+    flex: 0 0 auto;
+}
+.stack{
+
+    flex: 1
+}
+.num{
+    color: crimson;
+    padding: 10px;
+    flex:1px
+}
+.queue{
+    display: flex;
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+
+}
+button{
+    padding: 5px;
+}
+.textFi{
+    text-align: center;
+}
